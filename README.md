@@ -7,7 +7,7 @@ Event handling in React allows developers to respond to user interactions such a
 
 ## 🔗 Live Demo
 
-👉 [Click here to view the live app]([https://react-event-handling-rho.vercel.app/])
+👉 [Click here to view the live app](https://react-event-handling-rho.vercel.app/)
 
 ---
 
