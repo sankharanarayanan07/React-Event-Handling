@@ -1,12 +1,34 @@
-# React + Vite
+# 🧪 React Event Handling Example
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React project built to understand and demonstrate **event handling**.  
+Event handling in React allows developers to respond to user interactions such as **clicks**, **form submissions**, and **input changes**, making the app interactive and dynamic.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+👉 [Click here to view the live app]([https://react-event-handling-rho.vercel.app/])
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Types of Events Demonstrated
+
+- 🖱️ **Click Events (`onClick`)** – Trigger actions when elements like buttons are clicked  
+- ⌨️ **Input Events (`onChange`)** – Track and respond to changes in input fields  
+- 📨 **Form Events (`onSubmit`)** – Handle full form submissions and prevent page reloads  
+- ❌ **Prevent Default Behavior** – Use `e.preventDefault()` to stop default form actions  
+
+---
+
+## 🔍 How Events Work in This Project
+
+- In `ButtonClick.jsx`, we handle a simple click event:
+
+```jsx
+function ButtonClick() {
+  const handleClick = () => {
+    alert("Button clicked!");
+  };
+
+  return <button onClick={handleClick}>Click Me</button>;
+}
